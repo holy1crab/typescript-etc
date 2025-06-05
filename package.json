@@ -6,10 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "ts-patch install"
   },
   "devDependencies": {
-    "typescript": "~5.7.2",
-    "vite": "^6.1.0"
+    "@ryoppippi/unplugin-typia": "^2.2.0",
+    "ts-patch": "^3.3.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.2.6"
+  },
+  "dependencies": {
+    "typia": "^9.1.1"
   }
 }
